@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  padding: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  font-family: "Grandstander", cursive;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.headerContainer {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  font-family: "Grandstander", cursive;
+  margin-bottom: 0;
+}
+.headerText {
+  line-height: 25px;
+}
+.headerImage img {
+  height: 150px;
+  width: 120px;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 0;
+}
+.objectiveContainer {
+  font-family: "Grandstander", cursive;
+  text-align: justify;
 }
 
-.App-link {
-  color: #61dafb;
+.educationContainer {
+  font-family: "Grandstander", cursive;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.educationContainer h4 {
+  font-family: "Grandstander", cursive;
+}
+
+.educationContainer h3 {
+  font-family: "Grandstander", cursive;
+}
+
+.workContainer {
+  font-family: "Grandstander", cursive;
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+.workContainer h3 {
+  font-family: "Grandstander", cursive;
+}
+.workContainer h4 {
+  font-family: "Grandstander", cursive;
+}
+.workContainer h5 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Grandstander", cursive;
+}
+
+.workContainer ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.workContainer ul li {
+  list-style: none;
+  font-family: "Grandstander", cursive;
+  line-height: 30px;
+}
+
+.skillsContainer ul li {
+  list-style: none;
+  font-family: "Grandstander", cursive;
+  line-height: 30px;
+}
+.myButton {
+  box-shadow: 3px 4px 0px 0px #1564ad;
+  background: linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+  background-color: #79bbff;
+  border-radius: 5px;
+  border: 1px solid #337bc4;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  line-height: 30px;
+  font-family: "Grandstander", cursive;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px 15px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #528ecc;
+  margin-left: 8px;
+}
+.projectsContainer {
+  font-family: "Grandstander", cursive;
+  padding-top: 10px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  margin-top: 20;
+}
+.ReferencesContainer {
+  font-family: "Grandstander", cursive;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.languageContainer {
+  font-family: "Grandstander", cursive;
+  margin-top: 20;
 }
